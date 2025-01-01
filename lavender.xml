@@ -2,8 +2,9 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="org"          fetch="https://github.com/Aeoniixx-Lavender"      revision="PixelStar-14"/>
+    <remote name="org"          fetch="https://github.com/Aeoniixx-Lavender"      revision="TPP-14"/>
     <remote name="orga"         fetch="https://github.com/Lavender-LineageOS"     revision="lineage-21.0"/>
+    <remote name="los"          fetch="https://github.com/LineageOS"              revision="lineage-21"/>
 
     <!-- Remove HAL's -->
     <remove-project name="android_hardware_qcom_display" />
@@ -17,13 +18,13 @@
     <project name="vendor_xiaomi_lavender"              path="vendor/xiaomi/lavender"               remote="org"/>
 
     <!-- Kernel Trees -->
-    <project name="kernel_xiaomi_southwest-4.19"        path="kernel/xiaomi/lavender"               remote="org"/>
+    <project name="kernel_xiaomi_lavender_419"          path="kernel/xiaomi/lavender"               remote="org"/>
 
     <!-- Hardware Dependencies -->
     <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/sdm660/display"    remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/sdm660/media"      remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/sdm660/audio"      remote="orga"/>
-    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                     remote="org"/>
+    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                     remote="los"/>
 
     <!-- Dolby Atmos -->
     <project name="userariii/vendor_motorola-dolby"     path="vendor/motorola-dolby"                remote="github"         revision="v1.2"  />
