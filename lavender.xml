@@ -4,7 +4,8 @@
     <!-- Remotes -->
     <remote name="org"          fetch="https://github.com/Aeoniixx-Lavender"      revision="PixelStar-14"/>
     <remote name="orga"         fetch="https://github.com/Lavender-LineageOS"     revision="lineage-21.0"/>
-
+    <remote name="los"          fetch="https://github.com/LineageOS"              revision="lineage-21"/>
+  
     <!-- Remove HAL's -->
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
@@ -23,7 +24,7 @@
     <project name="hardware_qcom-caf_sdm660_display"    path="hardware/qcom-caf/sdm660/display"    remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_media"      path="hardware/qcom-caf/sdm660/media"      remote="orga"/>
     <project name="hardware_qcom-caf_sdm660_audio"      path="hardware/qcom-caf/sdm660/audio"      remote="orga"/>
-    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                     remote="org"/>
+    <project name="android_hardware_xiaomi"             path="hardware/xiaomi"                     remote="los"/>
 
     <!-- Dolby Atmos -->
     <project name="userariii/vendor_motorola-dolby"     path="vendor/motorola-dolby"                remote="github"         revision="v1.2"  />
