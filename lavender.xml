@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="org"          fetch="https://github.com/Aeoniixx-Lavender"      revision="Flare-15"/>
+    <remote name="hals"         fetch="https://github.com/Aeoniixx-Lavender"      revision="15-caf-sdm660"/>
+
+    <!-- Remove HALs -->
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+    
+    <!-- Devices Trees -->
+    <project name="device_xiaomi_lavender"              path="device/xiaomi/lavender"              remote="org"/>
+
+    <!-- Vendor Trees -->
+    <project name="vendor_xiaomi_lavender"              path="vendor/xiaomi/lavender"              remote="org"/>
+
+    <!-- Kernel Trees -->
+    <project name="kernel_xiaomi_southwest-4.19"        path="kernel/xiaomi/lavender"              remote="org"/>
+
+    <!-- Hardware Dependencies -->
+    <project name="hardware_qcom-caf_display"           path="hardware/qcom-caf/msm8998/display"   remote="hals"/>
+    <project name="hardware_qcom-caf_media"             path="hardware/qcom-caf/msm8998/media"     remote="hals"/>
+    <project name="hardware_qcom-caf_audio"             path="hardware/qcom-caf/msm8998/audio"     remote="hals"/>
+
+    <!-- Dolby Atmos -->
+    <project name="userariii/vendor_motorola-dolby"     path="vendor/motorola-dolby"               remote="github"         revision="v1.2"  />
+
+</manifest>
