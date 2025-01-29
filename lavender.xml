@@ -3,7 +3,7 @@
 
     <!-- Remotes -->
     <remote name="org"          fetch="https://github.com/Aeoniixx-Lavender"      revision="Flare-15"/>
-    <remote name="hals"         fetch="https://github.com/Aeoniixx-Lavender"      revision="15-caf-sdm660"/>
+    <remote name="hals"         fetch="https://github.com/Aeoniixx-Lavender"      revision="lineage-21.0"/>
 
     <!-- Remove HALs -->
     <remove-project name="LineageOS/android_hardware_qcom_display" />
@@ -20,9 +20,9 @@
     <project name="kernel_xiaomi_southwest-4.19"        path="kernel/xiaomi/lavender"              remote="org"/>
 
     <!-- Hardware Dependencies -->
-    <project name="hardware_qcom-caf_display"           path="hardware/qcom-caf/msm8998/display"   remote="hals"/>
-    <project name="hardware_qcom-caf_media"             path="hardware/qcom-caf/msm8998/media"     remote="hals"/>
-    <project name="hardware_qcom-caf_audio"             path="hardware/qcom-caf/msm8998/audio"     remote="hals"/>
+    <project name="hardware_qcom-caf_sdm660_display"           path="hardware/qcom-caf/msm8998/display"   remote="hals"/>
+    <project name="hardware_qcom-caf_sdm660_media"             path="hardware/qcom-caf/msm8998/media"     remote="hals"/>
+    <project name="hardware_qcom-caf_sdm660_audio"             path="hardware/qcom-caf/msm8998/audio"     remote="hals"/>
 
     <!-- Dolby Atmos -->
     <project name="userariii/vendor_motorola-dolby"     path="vendor/motorola-dolby"               remote="github"         revision="v1.2"  />
