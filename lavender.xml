@@ -16,7 +16,7 @@
     <project name="vendor_xiaomi_lavender"              path="vendor/xiaomi/lavender"              remote="org"/>
 
     <!-- Kernel Trees -->
-    <project name="kernel_xiaomi_southwest-4.19"        path="kernel/xiaomi/lavender"              remote="org"/>
+    <project name="kernel_xiaomi_lavender_419"          path="kernel/xiaomi/lavender"              remote="org"/>
 
     <!-- Hardware Dependencies -->
     <project name="hardware_qcom-caf_sdm660_display"           path="hardware/qcom-caf/msm8998/display"   remote="org"/>
