@@ -10,13 +10,13 @@
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     
     <!-- Devices Trees -->
-    <project name="device_xiaomi_lavender"              path="device/xiaomi/lavender"              remote="org"/>
+    <project name="device_xiaomi_lavender"              path="device/xiaomi/lavender"              remote="org"            revision="TPP"/>
 
     <!-- Vendor Trees -->
     <project name="vendor_xiaomi_lavender"              path="vendor/xiaomi/lavender"              remote="org"/>
 
     <!-- Kernel Trees -->
-    <project name="kernel_xiaomi_lavender_419"          path="kernel/xiaomi/lavender"              remote="org"/>
+    <project name="kernel_xiaomi_southwest-4.19"        path="kernel/xiaomi/lavender"              remote="org"/>
 
     <!-- Hardware Dependencies -->
     <project name="hardware_qcom-caf_sdm660_display"           path="hardware/qcom-caf/msm8998/display"   remote="org"/>
